@@ -1,0 +1,16 @@
+[package]
+name = "field-service-failure-loop"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+name = "field_service_failure_loop"
+path = "src/lib.rs"
+
+[[bin]]
+name = "dispatch_guard"
+path = "src/main.rs"
+
+[dependencies]
+
